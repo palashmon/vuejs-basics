@@ -1,4 +1,4 @@
-# VueJS Basics
+# Learning VueJS Basics
 This repo contains some simplest case examples on VueJS for learning purpose.
 
 Following topics have been covered so far:
