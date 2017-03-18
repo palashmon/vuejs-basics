@@ -1,2 +1,4 @@
-# vuejs-basics
-Simplest case examples on VueJS
+# VueJS Basics
+This repo contains some simplest case examples on VueJS for learning purpose.
+
+Thanks!
