@@ -22,3 +22,15 @@ var app7 = new Vue({
   }
 })
 ```
+
+### `v-on` Shorthand
+
+```html
+<!-- full syntax -->
+<button v-on:click="reverseMessage">Reverse Message</button>
+```
+
+```html
+<!-- shorthand -->
+<button @click="reverseMessage">Reverse Message</button>
+```
