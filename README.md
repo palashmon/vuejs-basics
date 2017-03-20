@@ -8,6 +8,9 @@ Following topics have been covered so far:
 - [x] [CH 3 - Conditional Rendering with v-if](/03-conditional-rendering-with-v-if)
 - [x] [CH 4 - Conditional Rendering with v-show](/04-conditional-rendering-with-v-show)
 - [x] [CH 5 - Loops in Vue](/05-loops)
-- [ ] CH 6 - 
+- [x] [CH 6 - Two Way Binding](/06-two-way-binding)
+- [x] [CH 7 - Handling Events](/07-handling-events)
+- [x] [CH 8 - Computed Properties](/08-computed-properties)
+- [ ] CH 9 - 
 
 Thanks!
