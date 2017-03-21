@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Class Binding</title>
+	<style>
+		button {	
+			padding: 12px 24px; /* Some padding */
+			font-size: 16px; /* Set a font-size */
+		}
+		
+		.is-loading {
+			background-color: #4CAF50; /* Green background */
+			border: none; /* Remove borders */
+			color: white; /* White text */
+		}
+	</style>
+</head>
+<body>
+
+	<div id="app-9">
+	  <p>
+		Click the button below to toggle its css class
+	  </p>
+	  <p>
+		<button :class="{ 'is-loading' : isLoading }" @click="toggleClass" >Click Me!</button>
+	  </p>
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="app.js"></script>
+</body>
+</html>
