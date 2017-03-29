@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Using Components Example 2</title>
+	
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+	
+	<!-- Favicons -->
+	<link rel="icon" href="https://vuejs.org/images/logo.png"> <!-- @source: https://vuejs.org -->
+	<style>body{margin:40px;}</style>
+</head>
+<body>
+
+	<div id="app-13" class="container">
+		
+		<!-- Open modal Button -->
+		<p>
+			<a class="button is-primary is-large modal-button" @click="isVisible = true">Launch example modal</a>
+		</p>
+		
+		<!-- Display Modal -->
+		<modal v-show="isVisible" @closed="isVisible = false">
+			<p>
+				<strong>Palash Mondal</strong>
+				<small>@palashmon</small>
+				<small>10m ago</small>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. 
+			</p>
+		</modal>		
+					
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="app.js"></script>
+</body>
+</html>
