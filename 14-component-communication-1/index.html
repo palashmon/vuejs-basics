@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Using Components Example 2</title>
+	
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+	
+	<!-- Favicons -->
+	<link rel="icon" href="https://vuejs.org/images/logo.png"> <!-- @source: https://vuejs.org -->
+	<style>body{margin:40px;}</style>
+</head>
+<body>
+
+	<div id="app-14" class="columns">
+		
+		<ticket	@booked="onTicketBooked"></ticket>
+		<div class="notification is-primary" v-if="isTicketBooked">
+			Your ticket was booked successfully!
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="app.js"></script>
+</body>
+</html>
