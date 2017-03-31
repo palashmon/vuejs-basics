@@ -1,11 +1,11 @@
 // Creating a Vue Instance with new Vue()
-var app7 = new Vue({
+const app7 = new Vue({
   el: '#app-7',
   data: {
     message: '!looc si sj.euV'
   },
   methods: {
-    reverseMessage: function () {
+    reverseMessage() {
 	
 	  // Split the message string by space to get each word as array item
 	  // Reverse that array using Array.prototype.reverse()
@@ -14,4 +14,4 @@ var app7 = new Vue({
       this.message = this.message.split('').reverse().join('')
     }
   }
-})
+});
