@@ -12,9 +12,11 @@ Following topics have been covered so far:
 - [x] [CH 07 - Handling Events](/07-handling-events)
 - [x] [CH 08 - Computed Properties](/08-computed-properties)
 - [x] [CH 09 - Class Binding](/09-class-binding)
-- [x] [CH 10 - Components Basics](/10-components-basics)
-- [x] [CH 11 - Components Within Components](/11-components-within-components)
-- [x] [CH 12 - Components Example - Part 1](/12-components-example-01)
-- [ ] CH 13 -  Components Example - Part 2
+- [x] [CH 10 - Component Basics](/10-components-basics)
+- [x] [CH 11 - Component Within Component](/11-components-within-components)
+- [x] [CH 12 - Component Example - Part 1](/12-components-example-01)
+- [x] [CH 13 -  Component Example - Part 2](/13-components-example-02)
+- [x] [CH 14 -  Component communication - Part 1](/14-component-communication-1)
+- [ ] CH 15 -  Component communication - Part 2
 
 Thanks!
