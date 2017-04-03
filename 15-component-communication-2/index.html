@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>VueJs - Component Communication Example 1</title>
+	<title>VueJs - Component Communication Example 2</title>
 	
 	<!-- Bulma CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
@@ -12,9 +12,10 @@
 </head>
 <body>
 
-	<div id="app-14" class="columns">
+	<div id="app-15" class="columns">
 		
-		<ticket	@booked="onTicketBooked"></ticket>
+		<ticket></ticket>
+
 		<div class="notification is-primary" v-if="isTicketBooked">
 			Your ticket was booked successfully!
 		</div>
