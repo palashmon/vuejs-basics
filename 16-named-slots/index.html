@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Named Slots</title>
+	
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+	
+	<!-- Favicons -->
+	<link rel="icon" href="https://vuejs.org/images/logo.png"> <!-- @source: https://vuejs.org -->
+	
+</head>
+<body>
+
+	<div id="app-16" class="container">
+		
+		<!-- Our main modal component -->
+		<modal>
+		
+			<!-- header slot -->
+            <template slot="header">
+                Named Slots <small>(header)<small>
+            </template>
+			
+			<!-- This is using default component slot -->
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+			
+			<!-- footer slot -->
+            <template slot="footer">
+                <a class="button is-primary">Save</a>
+                <a class="button">Cancel</a>
+            </template>
+        </modal>
+		
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="app.js"></script>
+</body>
+</html>
