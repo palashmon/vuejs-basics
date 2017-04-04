@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Inline Templates</title>
+	
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+	
+	<!-- Favicons -->
+	<link rel="icon" href="https://vuejs.org/images/logo.png"> <!-- @source: https://vuejs.org -->
+	<style>body{margin:40px;}</style>
+</head>
+<body>
+
+	<div id="app-17" class="container">
+		
+		<!-- Our component w/ inline template -->
+		<my-component inline-template>
+			
+			<!-- A root element is required here -->
+			<div>
+				Current Progress: 
+				<progress class="progress is-primary" :value="progressRate" max="100"></progress>
+			</div>
+			
+        </my-component>
+		
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="app.js"></script>
+</body>
+</html>
