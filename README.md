@@ -15,8 +15,9 @@ Following topics have been covered so far:
 - [x] [CH 10 - Component Basics](/10-components-basics)
 - [x] [CH 11 - Component Within Component](/11-components-within-components)
 - [x] [CH 12 - Component Example - Part 1](/12-components-example-01)
-- [x] [CH 13 -  Component Example - Part 2](/13-components-example-02)
-- [x] [CH 14 -  Component communication - Part 1](/14-component-communication-1)
-- [ ] CH 15 -  Component communication - Part 2
+- [x] [CH 13 - Component Example - Part 2](/13-components-example-02)
+- [x] [CH 14 - Component communication - Part 1](/14-component-communication-1)
+- [x] [CH 15 - Component communication - Part 2](/15-component-communication-2)
+- [ ] CH 16 -  
 
 Thanks!
