@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs - Inline Templates</title>
+
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<!-- Favicons -->
+	<link rel="icon" href="https://vuejs.org/images/logo.png"> <!-- @source: https://vuejs.org -->
+	<style>body{margin:40px;}</style>
+</head>
+<body>
+
+	<div id="root"class="columns">
+		<div class="column is-half">
+			<div class="field">
+				<label class="label">Github Username</label>
+			  <p class="control has-icon">
+			    <input class="input is-success" type="text" placeholder="Enter Github Username" v-model="username">
+			    <span class="icon">
+			      <i class="fa fa-github"></i>
+			    </span>
+			  </p>
+			</div>
+			<div class="field">
+				<p class="control">
+					<button @click="getUserData" :class="{ 'button is-primary is-loading' : loading, 'button is-primary' : !loading}">Get Data</button>
+				</p>
+			</div>
+		</div>
+		<div class="column is-half" v-if="shown">
+			<nav class="panel">
+				<p class="panel-heading">
+			    <b>Github User:</b> {{ username }}&nbsp;&nbsp;<img :src="avatar_url" style="width: 25px;height: 25px;">
+			  </p>
+			  <a class="panel-block is-active">	    
+			    <b>Blog:</b>&nbsp;&nbsp;{{blog}}
+			  </a>			  
+			  <a class="panel-block">	    
+			    <b>Followers:</b>&nbsp;&nbsp;{{followers}}
+			  </a>
+			  <a class="panel-block">	    
+			    <b>Following:</b>&nbsp;&nbsp;{{following}}
+			  </a>
+			  <a class="panel-block">	    
+			    <b>Public Repos:</b>&nbsp;&nbsp;{{public_repos}}
+			  </a>
+			  <a class="panel-block">	    
+			    <b>Email:</b>&nbsp;&nbsp;{{email}}
+			  </a>
+			</nav>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
