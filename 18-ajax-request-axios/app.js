@@ -6,7 +6,7 @@ new Vue({
 	data: {
 		shown: false,
 		loading: false,
-		username: 'wesbos',
+		username: '',
 		avatar_url: '',
 		blog: '',
 		followers: '',

@@ -30,24 +30,24 @@
 				</p>
 			</div>
 		</div>
-		<div class="column is-half" v-if="shown">
+		<div class="column is-half">
 			<nav class="panel">
 				<p class="panel-heading">
-			    <b>Github User:</b> {{ username }}&nbsp;&nbsp;<img :src="avatar_url" style="width: 25px;height: 25px;">
+			    <b>Github User:</b> {{ username }}&nbsp;&nbsp;<img :src="avatar_url" style="width: 25px;height: 25px;" v-if="shown">
 			  </p>
-			  <a class="panel-block is-active">	    
+			  <a class="panel-block is-active" v-if="shown">	    
 			    <b>Blog:</b>&nbsp;&nbsp;{{blog}}
 			  </a>			  
-			  <a class="panel-block">	    
+			  <a class="panel-block" v-if="shown">	    
 			    <b>Followers:</b>&nbsp;&nbsp;{{followers}}
 			  </a>
-			  <a class="panel-block">	    
+			  <a class="panel-block" v-if="shown">	    
 			    <b>Following:</b>&nbsp;&nbsp;{{following}}
 			  </a>
-			  <a class="panel-block">	    
+			  <a class="panel-block" v-if="shown">	    
 			    <b>Public Repos:</b>&nbsp;&nbsp;{{public_repos}}
 			  </a>
-			  <a class="panel-block">	    
+			  <a class="panel-block" v-if="shown">	    
 			    <b>Email:</b>&nbsp;&nbsp;{{email}}
 			  </a>
 			</nav>
