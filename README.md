@@ -1,4 +1,11 @@
 # Learning VueJS Basics
+
+![GitHub Stars](https://img.shields.io/github/stars/palashmon/vuejs-basics)
+![GitHub Forks](https://img.shields.io/github/forks/palashmon/vuejs-basics?color=brightgreen)
+![GitHub followers](https://img.shields.io/github/followers/palashmon?color=orange)
+![GitHub language count](https://img.shields.io/github/languages/count/palashmon/vuejs-basics?color=brightgreen)
+![GitHub top language](https://img.shields.io/github/languages/top/palashmon/vuejs-basics)
+
 Hey there, this repo contains some simplest case examples on VueJS for learning purpose.
 
 Following topics have been covered so far:
